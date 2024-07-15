@@ -79,7 +79,7 @@
       <div class="w-px-400 mx-auto">
         <!-- Logo -->
         <div class="app-brand mb-5">
-          <a href="index.html" class="app-brand-link gap-2">
+          <a href="index.php" class="app-brand-link gap-2">
             <span class="app-brand-logo demo">
 
 <svg width="25" viewBox="0 0 25 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -123,10 +123,10 @@
         <h4 class="mb-2">Welcome to Sneat! 👋</h4>
         <p class="mb-4">Please sign-in to your account and start the adventure</p>
 
-        <form id="formAuthentication" class="mb-3" action="index.html" method="GET">
+        <form class="mb-3" action="Auth/login_auth.php" method="POST">
           <div class="mb-3">
             <label for="email" class="form-label">Email or Username</label>
-            <input type="text" class="form-control" id="email" name="email-username" placeholder="Enter your email or username" autofocus>
+            <input type="text" class="form-control" id="email" name="email_username" placeholder="Enter your email or username" autofocus>
           </div>
           <div class="mb-3 form-password-toggle">
             <div class="d-flex justify-content-between">
@@ -148,9 +148,9 @@
               </label>
             </div>
           </div>
-          <button class="btn btn-primary d-grid w-100">
+          <input type="submit" name="loginSubmit" class="btn btn-primary d-grid w-100">
             Sign in
-          </button>
+          </input>
         </form>
 
         <p class="text-center">
@@ -184,12 +184,6 @@
 </div>
 
 <!-- / Content -->
-
-  
-  <div class="buy-now">
-    <a href="https://therichpost" target="_blank" class="btn btn-danger btn-buy-now">More Free Demos</a>
-  </div>
-  
 
   
 

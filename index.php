@@ -545,7 +545,7 @@
                 <div class="dropdown-divider"></div>
               </li>
               <li>
-                <a class="dropdown-item" href="auth-login-cover.html" target="_blank">
+                <a class="dropdown-item" href="login.php">
                   <i class="bx bx-power-off me-2"></i>
                   <span class="align-middle">Log Out</span>
                 </a>
@@ -1493,9 +1493,6 @@
   <!-- / Layout wrapper -->
 
   
-  <div class="buy-now">
-    <a href="https://therichpost.com" target="_blank" class="btn btn-danger btn-buy-now">Free More Demos</a>
-  </div>
 
 
 
