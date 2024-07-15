@@ -4,5 +4,6 @@
         $user_password = $_POST['password'];
         echo $email;
         echo $user_password;
+        header('location: ../index.php');
     }
 ?>
