@@ -126,7 +126,7 @@
         <form class="mb-3" action="Auth/login_auth.php" method="POST">
           <div class="mb-3">
             <label for="email" class="form-label">Email or Username</label>
-            <input type="text" class="form-control" id="email" name="email_username" placeholder="Enter your email or username" autofocus>
+            <input type="text" class="form-control" id="email" name="email" placeholder="Enter your email or username" autofocus>
           </div>
           <div class="mb-3 form-password-toggle">
             <div class="d-flex justify-content-between">
@@ -140,22 +140,21 @@
               <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
             </div>
           </div>
-          <div class="mb-3">
+          <!-- <div class="mb-3">
             <div class="form-check">
               <input class="form-check-input" type="checkbox" id="remember-me">
               <label class="form-check-label" for="remember-me">
                 Remember Me
               </label>
             </div>
-          </div>
-          <input type="submit" name="loginSubmit" class="btn btn-primary d-grid w-100">
-            Sign in
+          </div> -->
+          <input type="submit" value="Sign in" class="btn btn-primary d-grid w-100">
           </input>
         </form>
 
         <p class="text-center">
           <span>New on our platform?</span>
-          <a href="#">
+          <a href="signup.php">
             <span>Create an account</span>
           </a>
         </p>
