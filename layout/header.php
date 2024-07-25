@@ -134,17 +134,17 @@
       </a>
       <ul class="menu-sub">
         <li class="menu-item">
-          <a href="information.html" class="menu-link" target="_blank">
+          <a href="information.php" class="menu-link">
             <div class="text-truncate" data-i18n="Landing">Information</div>
           </a>
         </li>
         <li class="menu-item">
-          <a href="filter.html" class="menu-link" target="_blank">
+          <a href="filter.php" class="menu-link">
             <div class="text-truncate" data-i18n="Landing">Filter</div>
           </a>
         </li>
         <li class="menu-item">
-          <a href="catagory.html" class="menu-link" target="_blank">
+          <a href="catagory.php" class="menu-link">
             <div class="text-truncate" data-i18n="Landing">Create catagory</div>
           </a>
         </li>
